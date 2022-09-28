@@ -1,0 +1,37 @@
+.img-en-texto {
+    height: 2.5em;
+}
+
+.color-fondo {
+    background-color: cadetblue;
+}
+
+.color-rojo {
+    color: crimson;
+    font-weight: 800;
+}
+
+.color-naranja {
+    color: coral;
+    font-weight: 800;
+}
+
+.color-amarillo {
+    color: gold;
+    font-weight: 800;
+}
+
+.color-verde {
+    color: chartreuse;
+    font-weight: 800;
+}
+
+.color-azul {
+    color: blue;
+    font-weight: 800;
+}
+
+.color-aqua {
+    color: aquamarine;
+    font-weight: 800;
+}
