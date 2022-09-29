@@ -2,6 +2,14 @@
     height: 2.5em;
 }
 
+.pie-de-imagen {
+    width: 100%;
+    text-align: center;
+    color: darkblue;
+    font-weight: 600;
+    font-style: italic;
+}
+
 .color-fondo {
     background-color: cadetblue;
 }
