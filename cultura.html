@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 
-<body>
-    <table class="vh-100 vw-100">
+<body style="height: 100%; width: 99%;" onload="document.getElementById('audio').play();">
+    <audio id="audio" src="assets/cultura/spongebob-music.mp3" muted></audio>
+
+    <table class="h-100 w-100">
         <tr>
             <td rowspan="2">
                 <div style="background-image: url(assets/cultura/personajes.jpg);">
@@ -77,6 +79,10 @@
 
                     <p>
                         Esta cultura ha creado a sus propios dioses y encarnaciones del mal, habitos alimenticios, ritos y ceremonias variadas, entre otras prácticas únicas de los esponjositos.
+                    </p>
+
+                    <p>
+                        <a href="https://es.wikipedia.org/wiki/Bob_Esponja">Ver más sobre Bob Esponja</a>
                     </p>
                 </div>
             </td>
@@ -150,6 +156,66 @@
             </td>
         </tr>
     </table>
+    
+    <footer class="mt-5">
+        <div class="row mx-0">
+            <div class="col-2 offset-3">
+                <p>
+                    <b>Creación:</b><br>
+                    29 de septiembre de 2021
+                </p>
+
+                <p>
+                    <b>Última actualización:</b><br>
+                    5 de octubre de 2021
+                </p>
+            </div>
+
+            <div class="col-3">
+                <form action="#">
+                    <h4>Tienes algún comentario?</h4>
+
+                    <h6>Háznoslo saber!</h6>
+
+                    <div class="col">
+                        <label class="form-text">Correo Electrónico</label>
+                        <input class="form-control">
+                    </div>
+
+                    <div class="col mt-2">
+                        <label class="form-text">Comentario</label>
+                        <textarea class="form-control"></textarea>
+                    </div>
+
+                    <button class="btn btn-primary mt-3" type="submit">Enviar comentario</button>
+                </form>
+            </div>
+
+            <div class="col-4">
+                <h4>Contacto</h4>
+
+                <p>
+                    <b>Correo Electrónico:</b>
+                    isaacd0leon@gmail.com
+                </p>
+
+                <p>
+                    <b>Teléfono Celular:</b>
+                    5561990016
+                </p>
+
+                <p>
+                    <b>Facebook:</b>
+                    <a href="https://www.facebook.com/">Isaac de León</a>
+                </p>
+
+                <p>
+                    <b>Institución:</b>
+                    <a href="http://uptecamac.edomex.gob.mx/">UPT</a>
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

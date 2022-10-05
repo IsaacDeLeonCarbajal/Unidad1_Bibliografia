@@ -10,7 +10,11 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 
-<body class="color-fondo">
+<body class="color-fondo" onload="document.getElementById('audio').play();">
+    <audio id="audio" src="assets/biografia/musica-fondo.mp3" muted></audio>
+
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="font-size: 10px;">click me</a>
+
     <div class="col-9 container pt-5">
         <div class="row">
             <img class="col-5" src="assets/biografia/shrek.jpg" alt="shrek">
@@ -89,6 +93,66 @@
     </div>
 
     <img class="col-12 mt-5" src="assets/biografia/to-be-continued.jpg" alt="To Be Continued">
+    
+    <footer class="mt-5">
+        <div class="row mx-0">
+            <div class="col-2 offset-3">
+                <p>
+                    <b>Creación:</b><br>
+                    29 de septiembre de 2021
+                </p>
+
+                <p>
+                    <b>Última actualización:</b><br>
+                    5 de octubre de 2021
+                </p>
+            </div>
+
+            <div class="col-3">
+                <form action="#">
+                    <h4>Tienes algún comentario?</h4>
+
+                    <h6>Háznoslo saber!</h6>
+
+                    <div class="col">
+                        <label class="form-text text-dark">Correo Electrónico</label>
+                        <input class="form-control">
+                    </div>
+
+                    <div class="col mt-2">
+                        <label class="form-text text-dark">Comentario</label>
+                        <textarea class="form-control"></textarea>
+                    </div>
+
+                    <button class="btn btn-primary mt-3" type="submit">Enviar comentario</button>
+                </form>
+            </div>
+
+            <div class="col-4">
+                <h4>Contacto</h4>
+
+                <p>
+                    <b>Correo Electrónico:</b>
+                    isaacd0leon@gmail.com
+                </p>
+
+                <p>
+                    <b>Teléfono Celular:</b>
+                    5561990016
+                </p>
+
+                <p>
+                    <b>Facebook:</b>
+                    <a href="https://www.facebook.com/">Isaac de León</a>
+                </p>
+
+                <p>
+                    <b>Institución:</b>
+                    <a href="http://uptecamac.edomex.gob.mx/">UPT</a>
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
